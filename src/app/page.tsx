@@ -87,7 +87,7 @@ export default function MemorialGuestbook() {
   const handleRandomTribute = () => {
     const newEntry: Entry = {
       id: Date.now(),
-      nickname: 'Blackmidi Hit tweet',
+      nickname: 'blackmidi Hit tweet',
       message: randomTributes[Math.floor(Math.random() * randomTributes.length)],
       flower: selectedFlower,
     };
@@ -132,8 +132,8 @@ export default function MemorialGuestbook() {
         </button>
 
         <div className="mb-2 text-center px-4 py-4 bg-black/80 rounded-xl border border-red-600 shadow-lg">
-          <h1 className="text-5xl font-bold text-red-400 tracking-wide">In Loving Memory of Blackmidi</h1>
-          <p className="mt-2 text-md text-red-200 italic">“1st Anniversary Memorial of Blackmidi Disbandment”</p>
+          <h1 className="text-5xl font-bold text-red-400 tracking-wide">In Loving Memory of blackmidi</h1>
+          <p className="mt-2 text-md text-red-200 italic">“1st Anniversary Memorial of blackmidi Disbandment”</p>
         </div>
 
         <p className="text-red-300 text-center italic text-sm mb-4">
